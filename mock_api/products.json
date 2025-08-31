@@ -1,0 +1,306 @@
+[
+  {
+    "name": "Office Shirt",
+    "price": 49,
+    "vendor": "Zara",
+    "url": "https://zara.com/office-shirt",
+    "sizes": ["M", "L", "XL"],
+    "occasion": "office",
+    "priority": 1
+  },
+  
+ {
+    "name": "H&M Men’s Suit Blazer",
+    "price": "₹3999",
+    "vendor": "H&M",
+    "sizes": ["M","L","XL"],
+    "occasion": "Formal",
+    "url": "https://www2.hm.com/en_in/men/shop-by-product/suits-blazers.html?srsltid=AfmBOortpNHOCgywNLYC0QNhjscq6WajnKS9WTOPH95YlrzZeOLnCtXN"
+}
+
+  ,
+  {
+    "name": "Formal Pants",
+    "price": 69,
+    "vendor": "Van Heusen",
+    "url": "https://vanheusen.com/formal-pants",
+    "sizes": ["M", "L", "XL"],
+    "occasion": "office",
+    "priority": 1
+  },
+  {
+    "name": "Leather Belt",
+    "price": 39,
+    "vendor": "Allen Solly",
+    "url": "https://allensolly.com/leather-belt",
+    "sizes": ["M", "L", "XL"],
+    "occasion": "office",
+    "priority": 1
+  },
+  {
+    "name": "Office Watch",
+    "price": 120,
+    "vendor": "Fossil",
+    "url": "https://fossil.com/office-watch",
+    "sizes": ["M", "L", "XL"],
+    "occasion": "office",
+    "priority": 1
+  },
+
+  {
+  "name": "Uniqlo Men’s T-Shirt Collection",
+  "price": "₹999",
+  "vendor": "Uniqlo",
+  "occasion": "casual",
+  "sizes": ["M", "L", "XL"],
+  "url": "https://..."
+}
+,
+{
+  "name": "H&M Men's Casual Hoodie Collection",
+  "price": "₹1,299",
+  "vendor": "H&M",
+  "occasion": "casual",
+  "sizes": ["S", "M", "L", "XL", "XXL"],
+  "url": "https://www2.hm.com/en_us/men/shop-by-product/hoodies-sweatshirts/hoodies.html"
+}
+,
+  
+  {
+    "name": "Casual Sneakers",
+    "price": 75,
+    "vendor": "Nike",
+    "url": "https://nike.com/casual-sneakers",
+    "sizes": ["S", "M", "L", "XL"],
+    "occasion": "casual",
+    "priority": 1
+  },
+  {
+    "name": "Casual Cap",
+    "price": 20,
+    "vendor": "Adidas",
+    "url": "https://adidas.com/casual-cap",
+    "sizes": ["S", "M", "L", "XL"],
+    "occasion": "casual",
+    "priority": 1
+  },
+
+  {
+    "name": "Sporty Tracksuit",
+    "price": 70,
+    "vendor": "Nike",
+    "url": "https://nike.com/sport-tracksuit",
+    "sizes": ["M", "L", "XL"],
+    "occasion": "sporty",
+    "priority": 1
+  },
+  {
+    "name": "Sporty Sneakers",
+    "price": 90,
+    "vendor": "Adidas",
+    "url": "https://adidas.com/sport-sneakers",
+    "sizes": ["S", "M", "L", "XL"],
+    "occasion": "sporty",
+    "priority": 1
+  },
+  {
+    "name": "Gym Shorts",
+    "price": 35,
+    "vendor": "Puma",
+    "url": "https://puma.com/gym-shorts",
+    "sizes": ["S", "M", "L", "XL"],
+    "occasion": "sporty",
+    "priority": 1
+  },
+  {
+    "name": "Running Tee",
+    "price": 29,
+    "vendor": "Decathlon",
+    "url": "https://decathlon.com/running-tee",
+    "sizes": ["S", "M", "L", "XL"],
+    "occasion": "sporty",
+    "priority": 1
+  },
+  {
+    "name": "Sports Watch",
+    "price": 110,
+    "vendor": "Garmin",
+    "url": "https://garmin.com/sports-watch",
+    "sizes": ["S", "M", "L", "XL"],
+    "occasion": "sporty",
+    "priority": 1
+  },
+{
+    "name": "Raymond Suits",
+    "price": "₹9999",
+    "vendor": "Raymond",
+    "sizes": ["M","L","XL"],
+    "occasion": "Formal",
+    "url": "https://myraymond.com/collections/raymond-suits?srsltid=AfmBOookgBDrlbTVxFYGGzvShCUx-BG8gsOJY7-YjIiE8PtaJyMQOr93"
+},
+
+  {
+    "name": "Formal Shoes",
+    "price": 120,
+    "vendor": "Bata",
+    "url": "https://www.bata.com/in/men/shoes/formals/",
+    "sizes": ["S", "M", "L", "XL"],
+    "occasion": "formal",
+    "priority": 1
+  },
+  {
+    "name": "Formal Tie",
+    "price": 25,
+    "vendor": "Park Avenue",
+    "url": "https://www.parkavenue.it/en/finishis/tie/",
+    "sizes": ["S", "M", "L", "XL"],
+    "occasion": "formal",
+    "priority": 1
+  },
+  {
+    "name": "Formal Shirt",
+    "price": 65,
+    "vendor": "Peter England",
+    "url": "https://peterengland.abfrl.in/shop/men-shirts",
+    "sizes": ["S", "M", "L", "XL"],
+    "occasion": "formal",
+    "priority": 1
+  },
+  {
+    "name": "Formal Watch",
+    "price": 140,
+    "vendor": "Titan",
+    "url": "https://titan.com/formal-watch",
+    "sizes": ["S", "M", "L", "XL"],
+    "occasion": "formal",
+    "priority": 1
+  },
+
+  {
+    "name": "Party Dress",
+    "price": 130,
+    "vendor": "Forever21",
+    "url": "https://forever21.com/party-dress",
+    "sizes": ["S", "M", "L", "XL"],
+    "occasion": "party",
+    "priority": 1
+  },
+  {
+    "name": "Party Heels",
+    "price": 85,
+    "vendor": "Aldo",
+    "url": "https://aldo.com/party-heels",
+    "sizes": ["S", "M", "L", "XL"],
+    "occasion": "party",
+    "priority": 1
+  },
+  {
+    "name": "Party Clutch",
+    "price": 55,
+    "vendor": "Guess",
+    "url": "https://guess.com/party-clutch",
+    "sizes": ["S", "M", "L", "XL"],
+    "occasion": "party",
+    "priority": 1
+  },
+  {
+    "name": "Party Necklace",
+    "price": 75,
+    "vendor": "Swarovski",
+    "url": "https://swarovski.com/party-necklace",
+    "sizes": ["S", "M", "L", "XL"],
+    "occasion": "party",
+    "priority": 1
+  },
+  {
+    "name": "Party Blazer",
+    "price": 140,
+    "vendor": "Zara",
+    "url": "https://zara.com/party-blazer",
+    "sizes": ["S", "M", "L", "XL"],
+    "occasion": "party",
+    "priority": 1
+  },
+
+  {
+    "name": "Trendy Jacket",
+    "price": 79,
+    "vendor": "Zara",
+    "url": "https://zara.com/trendy-jacket",
+    "sizes": ["S", "M", "L", "XL"],
+    "occasion": "trendy",
+    "priority": 1
+  },
+  {
+    "name": "Trendy Sneakers",
+    "price": 95,
+    "vendor": "Puma",
+    "url": "https://puma.com/trendy-sneakers",
+    "sizes": ["S", "M", "L", "XL"],
+    "occasion": "trendy",
+    "priority": 1
+  },
+  {
+    "name": "Trendy Sunglasses",
+    "price": 65,
+    "vendor": "Ray-Ban",
+    "url": "https://rayban.com/trendy-sunglasses",
+    "sizes": ["S", "M", "L", "XL"],
+    "occasion": "trendy",
+    "priority": 1
+  },
+  {
+    "name": "Trendy Handbag",
+    "price": 150,
+    "vendor": "Michael Kors",
+    "url": "https://michaelkors.com/trendy-handbag",
+    "sizes": ["S", "M", "L", "XL"],
+    "occasion": "trendy",
+    "priority": 1
+  },
+  {
+    "name": "Trendy Hoodie",
+    "price": 55,
+    "vendor": "H&M",
+    "url": "https://www2.hm.com/en_in/men/shop-by-product/hoodies-sweatshirts.html",
+    "sizes": ["S", "M", "L", "XL"],
+    "occasion": "trendy",
+    "priority": 1
+  }
+  ,
+
+  {
+    "name": "Raymond Classic Kurta Set",
+    "price": "₹3,499",
+    "vendor": "Raymond",
+    "url": "https://myraymond.com/collections/ethnic-wear",
+    "occasion": "Traditional",
+    "sizes": ["S", "M", "L", "XL"]
+  },
+  {
+    "name": "Manyavar Embroidered Sherwani",
+    "price": "₹12,999",
+    "vendor": "Manyavar",
+    "url": "https://www.manyavar.com/collections/sherwanis",
+    "occasion": "Traditional",
+    "sizes": ["M", "L", "XL"]
+  },
+  {
+    "name": "Fabindia Cotton Kurta",
+    "price": "₹1,999",
+    "vendor": "Fabindia",
+    "url": "https://www.fabindia.com/men/kurtas-19502-0-category.html",
+    "occasion": "Traditional",
+    "sizes": ["S", "M", "L"]
+  }
+  ,
+  {
+  "name": "Levi’s Men's Jeans Collection",
+  "price": "₹2,499",
+  "vendor": "Levi’s India",
+  "occasion": "casual",
+  "sizes": ["M", "L", "XL", "XXL"],
+  "url": "https://levi.in/collections/men-jeans"
+}
+
+]

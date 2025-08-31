@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Outfit Vibe Rater</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background: #f9f9f9;
+      text-align: center;
+    }
+    header {
+      margin-bottom: 20px;
+    }
+    h1 {
+      color: #333;
+    }
+    .upload-box {
+      border: 2px dashed #888;
+      padding: 20px;
+      margin: 20px auto;
+      width: 60%;
+      background: white;
+    }
+    .results {
+      margin-top: 30px;
+      text-align: left;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .recommendation {
+      border: 1px solid #ddd;
+      padding: 10px;
+      margin: 10px 0;
+      background: #fff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="assets/logo.svg" alt="Logo" width="72">
+    <h1>✨ Outfit Vibe Rater</h1>
+    <p>Upload an outfit photo → get vibe scores + size + product recommendations</p>
+  </header>
+
+  <section class="upload-box">
+    <form id="uploadForm" enctype="multipart/form-data">
+      <label for="image">📸 Upload an Outfit:</label><br><br>
+      <input type="file" id="image" name="image" accept="image/*" required>
+      <br><br>
+      <button type="submit">Analyze Outfit</button>
+    </form>
+  </section>
+
+  <section id="results" class="results"></section>
+
+  <script>
+    document.getElementById("uploadForm").addEventListener("submit", async function(e) {
+      e.preventDefault();
+      const formData = new FormData();
+      const file = document.getElementById("image").files[0];
+      formData.append("image", file);
+
+      const response = await fetch("http://127.0.0.1:5000/analyze", {
+        method: "POST",
+        body: formData
+      });
+      const data = await response.json();
+
+      let resultsDiv = document.getElementById("results");
+      resultsDiv.innerHTML = `
+        <h2>👔 Detected Occasion: ${data.occasion}</h2>
+        <p>📏 Suggested Size: ${data.suggested_size}</p>
+        <h3>🎨 Key Scores</h3>
+        <ul>
+          ${Object.entries(data.raw_scores).map(([k,v]) => `<li>${k}: ${v.toFixed(1)}</li>`).join("")}
+        </ul>
+        <h3>🛍️ Recommended Outfits</h3>
+      `;
+
+      if (data.recommendations.length === 0) {
+        resultsDiv.innerHTML += "<p>No matching items found.</p>";
+      } else {
+        data.recommendations.forEach(p => {
+          resultsDiv.innerHTML += `
+            <div class="recommendation">
+              <b>${p.name}</b><br>
+              🏷️ ${p.price} | 📦 ${p.vendor}<br>
+              👉 <a href="${p.url}" target="_blank">View Item</a>
+            </div>
+          `;
+        });
+      }
+    });
+  </script>
+</body>
+</html>
